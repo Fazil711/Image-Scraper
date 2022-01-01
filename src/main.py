@@ -39,7 +39,7 @@ class Student:
 		x = self.entry2.get()
 		x = int(x)
 		y = self.entry1.get()
-		DRIVER_PATH = 'C:/Users/fazil/OneDrive/Desktop/chrome/chromedriver.exe'
+		DRIVER_PATH = 'Path to your chrome driver'
 		search_and_download(search_term = y, driver_path = DRIVER_PATH, number_images = x)
 
 x = Student()
